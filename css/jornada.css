@@ -1,0 +1,67 @@
+.jornada{   
+    width: 100vw;
+  
+
+}
+
+.jornada h2{    
+    color: #140101d3;
+    font-size: 1.5rem;    
+    text-align: center;
+    padding-top:3rem;
+   
+}
+
+.jornada h2 span{
+    color: rgb(255, 145, 0);
+}
+
+.jornada-box{
+    display: flex;
+
+}
+
+.especial-box{
+    padding: 3%;
+    width: 40%;
+    color: #140101;
+    margin-top: 45px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.especial-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(255, 230, 1, 0.342);
+}
+
+.especial-box i{
+    font-size: 45px;
+    color: rgb(255, 230, 1, 0.342);
+}
+
+.especial-box h3{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+#txt_credenciais span{
+    color: rgb(255, 145, 0);
+}
+
+#txt_jornada span{
+    color: rgb(255, 145, 0);
+}
+
+@media (max-width:650px) {
+    .jornada-box{
+        flex-direction: column;
+    }
+
+    .especial-box{        
+        width: 80%;   
+        margin-bottom: 2rem;     
+    }
+}

@@ -1,0 +1,46 @@
+.topo{
+    display: flex;
+    flex-direction: column;   
+    width:100vw;
+    height: 60vh;
+    gap: 90px;
+    
+
+}
+
+.topo h1{    
+    color: black;
+    font-family: 'Comic Neue', cursive, 600;
+    font-size: 1.5rem; 
+    margin-left: 2rem;
+    margin-top: 10%;     
+    
+}
+
+.topo h1 span{    
+    color: goldenrod;   
+}
+
+.topo p{
+    color: black;
+    font-family:  'Comic Neue', cursive, 600;
+    font-size: 1.2rem;
+    margin-top: 5%;
+    margin-left: 2rem;
+}
+
+.btn-contato2 button{
+    background: transparent;
+    padding: .5rem 3rem;
+    cursor: pointer;
+    margin-left: 50%;
+
+}
+
+.btn-contato2 button:hover{
+    color: goldenrod;
+    transform: scale(1.05);
+}
+
+
+

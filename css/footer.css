@@ -1,0 +1,45 @@
+.contato{     
+    padding: 40px 2%;
+    box-shadow: 0 0 50px 3px rgba(255, 230, 1, 0.342);
+    justify-items: center;
+}
+
+.line-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.line-footer p i{
+    color:rgb(158, 158, 12);
+    font-size: 22px;
+}
+
+
+.line-footer p a{
+    color: black;
+}
+
+.logo-footer{
+    width: 6rem;
+    height: 6rem;
+    overflow: hidden;
+    margin-left: 4%; 
+    border-radius: 70%;   
+    border: 2px solid rgba(238, 235, 197, 0.557);   
+}
+
+.logo-footer img{
+    display: flex;    
+    align-items: center;
+    width: 100%; 
+    height: 100%;  
+}
+
+@media (max-width: 768px){
+
+    .line-footer{
+        flex-direction: column;        
+    }
+}
+

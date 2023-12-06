@@ -1,0 +1,85 @@
+@import url('nav.css');
+
+@import url('header.css');
+
+@import url('jornada.css');
+
+@import url('sobre.css');
+
+@import url('galeria.css');
+
+@import url('formulario.css');
+
+@import url('footer.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+
+/*
+    font-family: 'Comic Neue', cursive;    
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    scroll-behavior: smooth;
+    position: relative;
+
+}
+
+.fundo{
+    background: linear-gradient(#fff, #ffffff5d), url(https://static.vecteezy.com/ti/vetor-gratis/p3/17774417-fundo-branco-e-dourado-com-design-de-conceito-corporativo-moderno-ilustracaoial-para-design-de-apresentacao-banner-de-tecnologia-festival-de-premiacao-vetor.jpg) no-repeat center;
+    background-size: cover;    
+    height: 90vh;
+    margin-top: 10vh;
+    box-shadow: inset 0 -30px 80px #fff; 
+
+}
+
+.btn-inicio{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    color: #e72e2e;
+    width: 3rem;
+    height: 3rem;
+    opacity: .2;
+}
+
+.btn-inicio:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+.btn-inicio img{
+    width: 100%;
+}
+
+
+.btn-social{
+    text-align: end;
+}
+
+.btn-social button{
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(251, 255, 0);
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    margin-top: 1%;
+    transition: 0.2s;
+}

@@ -1,0 +1,90 @@
+.robson{
+   display: flex;
+   padding: 4%;
+   width: 100vw;
+   color: black;
+   align-items: center;
+   justify-content: space-around;
+    
+}
+
+.robson_img{    
+    width: 150rem;
+    height: 20rem;
+    overflow: hidden;
+    override-colors: 141px 160px 157px 10px;
+    -webkit-border-radius: 141px 160px 157px 10px;
+    -moz-border-radius: 141px 160px 157px 10px;  
+    box-shadow: 0px 0px 20px 10px rgb(186, 189, 9);
+    position: relative;    
+  
+}
+
+.robson_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.txt_apresentacao{
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin-left: 10%;
+}
+
+.robson h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    
+}
+
+.robson h2 span{
+    display: block;
+    color: rgb(186, 189, 9);
+    
+}
+
+#txt_robson span{  
+    color: rgb(255, 145, 0);
+}
+
+.btn-social{
+    display: block;
+    justify-content: right;
+    margin-top: 7%;
+    
+}
+
+@media (max-width:650px) {
+    .robson{
+        flex-direction: column;        
+         
+     }
+
+     .robson_img{    
+        width: 20rem;
+        height: 30rem;
+        
+    }
+
+    .robson_img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .robson h2{
+        margin-top: 2.5rem;       
+        
+    }
+    
+    .robson{
+       margin-bottom: 2rem;
+    
+    }         
+    
+}
+
+
